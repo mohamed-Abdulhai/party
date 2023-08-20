@@ -1,0 +1,77 @@
+#home {
+    background: linear-gradient( rgba(214, 46, 52, 0.373), rgba(214, 46, 52, 0.373)),
+        url('../imges/events-heavenly-header.jpg');
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#home h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.boxToggle {
+    background-color: rgba(214, 46, 52, 0.373);
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 0px;
+    margin: 0;
+}
+
+.content {
+    padding: 15px;
+    background-color: #ccc;
+    display: none;
+}
+
+.sliderNav {
+    height: 100% !important;
+    position: fixed;
+    top: 0;
+    width: 15%;
+    display: none;
+}
+
+.sliderNav .nav-link {
+    color: #fff;
+    transition: all 0.2s;
+
+}
+.nav-link.active,.nav-link:hover{
+    color: #D62E33;
+}
+
+.openNav {
+    cursor: pointer;
+    position: absolute;
+    left: 20%;
+}
+
+.count {
+    background: linear-gradient(rgba(214, 46, 52, 0.373), rgba(214, 46, 52, 0.373)), url(../imges/istockphoto-1270491550-612x612.jpg);
+    background-position: center center;
+    background-size: cover cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.count .box {
+    border: 1px solid #f1f1f1;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
